@@ -10,15 +10,26 @@
 --     },
 --   },
 -- }
-
+--
+-- return {
+--   {
+--     "catppuccin/nvim",
+--   },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "catppuccin",
+--     },
+--   },
+-- }
 return {
   {
-    "catppuccin/nvim",
+    "loctvl842/monokai-pro.nvim",
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "monokai-pro",
     },
   },
 }

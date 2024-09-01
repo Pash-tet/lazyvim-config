@@ -64,18 +64,6 @@ return {
       },
     },
   },
-  {
-    "neovim/nvim-lspconfig",
-    ---@class PluginLspOpts
-    opts = {
-      servers = {
-        solargraph = {
-          useBundler = true,
-          commandPath = "bin/solargraph",
-        },
-      },
-    },
-  },
   -- add tsserver and setup with typescript.nvim instead of lspconfig
   {
     "neovim/nvim-lspconfig",
@@ -130,6 +118,7 @@ return {
         "python",
         "query",
         "regex",
+        "ruby",
         "tsx",
         "typescript",
         "vim",
@@ -178,6 +167,7 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "ruby_lsp",
       },
     },
   },

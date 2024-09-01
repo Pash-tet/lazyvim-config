@@ -7,3 +7,9 @@ vim.keymap.set("n", "<D-n>", ":silent exec '!neovide'<cr>")
 if vim.g.neovide then
   vim.print(vim.g.neovide_verion)
 end
+vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
+  pattern = "*.ejson",
+  callback = function()
+    vim.bo.filetype = "json"
+  end,
+})

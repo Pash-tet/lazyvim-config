@@ -22,14 +22,23 @@
 --     },
 --   },
 -- }
+-- return {
+--   {
+--     "loctvl842/monokai-pro.nvim",
+--   },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "monokai-pro",
+--     },
+--   },
+-- }
 return {
-  {
-    "loctvl842/monokai-pro.nvim",
-  },
+  { "folke/tokyonight.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-pro",
+      colorscheme = "tokyonight",
     },
   },
 }
